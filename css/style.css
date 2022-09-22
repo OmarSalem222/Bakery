@@ -222,11 +222,14 @@ section p{
 }
 
 .meal{
-    padding: 30px;
+    border: 2px solid rgba(142, 119, 84, .4);
+    border-radius: 20px;
 }
 
 .meal img{
-    width: 90%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 h5{
@@ -391,10 +394,6 @@ footer li:last-of-type:hover{
     .icon-nav{
         display: block;
     }
-
-    .container{
-        width: 100%;
-    }
 }
 
 
@@ -405,7 +404,7 @@ footer li:last-of-type:hover{
     }
 
     .adv{
-        padding-left: 5%;
+        padding-left: 20%;
     }
 
     #location .img{
@@ -413,7 +412,7 @@ footer li:last-of-type:hover{
     }
 
     .way{
-        padding-left: 5%;
+        padding-left: 20%;
     }
 
     .map{
